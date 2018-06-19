@@ -1,0 +1,24 @@
+{
+  "name": "message-box",
+  "version": "1.0.0",
+  "description": "弹窗组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marsqinht/message-box.git"
+  },
+  "author": "qinhaitao <qinhaitaocn@163.com> (http://github.com/marsqinht)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marsqinht/message-box/issues"
+  },
+  "homepage": "https://github.com/marsqinht/message-box#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
