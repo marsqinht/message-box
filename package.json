@@ -1,24 +1,31 @@
 {
-  "name": "message-box",
-  "version": "1.0.0",
-  "description": "弹窗组件",
-  "main": "index.js",
+  "name": "ss",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marsqinht/message-box.git"
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
   },
-  "author": "qinhaitao <qinhaitaocn@163.com> (http://github.com/marsqinht)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marsqinht/message-box/issues"
-  },
-  "homepage": "https://github.com/marsqinht/message-box#readme",
   "devDependencies": {
-    "css-loader": "^0.28.11",
-    "vue-loader": "^15.2.4",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/eslint-config-prettier": "^3.0.0-rc.3",
+    "@vue/test-utils": "^1.0.0-beta.16",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
     "vue-template-compiler": "^2.5.16"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
